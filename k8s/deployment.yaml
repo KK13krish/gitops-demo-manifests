@@ -27,7 +27,7 @@ spec:
       containers:
         - name: hello-service
           # CI workflow will update this image tag on every push
-          image: KK13krish/hello-service:latest
+          image: krishh13kk/hello-service:latest
           imagePullPolicy: Always
           ports:
             - name: http
